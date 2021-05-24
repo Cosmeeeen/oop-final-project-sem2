@@ -103,12 +103,24 @@ bool Property::operator==(const Property &other){
 }
 
 std::string Property::toString(bool forFile){
-    // todo for file implementation
-    std::string result =
+    std::string result;
+
+    if(forFile){
+        // The P in front shows that the object is a property
+        result =
+                "P " +
+                std::to_string(this->id) + " " +
+                std::to_string(this->surface) + " " +
+                std::to_string(this->rooms) + " " +
+                std::to_string(this->price) + " " +
+                this->street;
+    } else {
+        result =
             std::to_string(this->id) + ". " +
             std::to_string(this->surface) + "m3 " +
             std::to_string(this->rooms) + "rooms " +
             std::to_string(this->price) + "eur " +
             this->street;
+    }
     return result;
 }

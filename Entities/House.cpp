@@ -48,7 +48,15 @@ bool House::operator==(const House& other){
 }
 
 std::string House::toString(bool forFile){
-    // todo for file implementation
-    std::string result = Property::toString() + " " + std::to_string(this->floors) + "floors";
+    std::string result;
+    if(forFile){
+        result =
+                Property::toString(true) + " " +
+                std::to_string(this->floors);
+    } else {
+        result =
+                Property::toString() + " " +
+                std::to_string(this->floors) + "floors";
+    }
     return result;
 }

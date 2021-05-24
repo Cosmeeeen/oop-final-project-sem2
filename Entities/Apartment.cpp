@@ -48,7 +48,15 @@ bool Apartment::operator==(const Apartment& other){
 }
 
 std::string Apartment::toString(bool forFile){
-    // todo for file
-    std::string result = Property::toString() + " " + std::to_string(this->floor) + "floor";
+    std::string result;
+    if(forFile){
+        result =
+                Property::toString(true) + " " +
+                std::to_string(this->floor);
+    } else {
+        result =
+                Property::toString() + " " +
+                std::to_string(this->floor) + "floor";
+    }
     return result;
 }
