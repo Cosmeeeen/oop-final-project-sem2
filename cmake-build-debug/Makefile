@@ -223,6 +223,33 @@ Entities/Property.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Entities/Property.cpp.s
 .PHONY : Entities/Property.cpp.s
 
+Repository/Repo.o: Repository/Repo.cpp.o
+
+.PHONY : Repository/Repo.o
+
+# target to build an object file
+Repository/Repo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o
+.PHONY : Repository/Repo.cpp.o
+
+Repository/Repo.i: Repository/Repo.cpp.i
+
+.PHONY : Repository/Repo.i
+
+# target to preprocess a source file
+Repository/Repo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.i
+.PHONY : Repository/Repo.cpp.i
+
+Repository/Repo.s: Repository/Repo.cpp.s
+
+.PHONY : Repository/Repo.s
+
+# target to generate assembly for a file
+Repository/Repo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.s
+.PHONY : Repository/Repo.cpp.s
+
 Tests/EntitiesTester.o: Tests/EntitiesTester.cpp.o
 
 .PHONY : Tests/EntitiesTester.o
@@ -249,6 +276,33 @@ Tests/EntitiesTester.s: Tests/EntitiesTester.cpp.s
 Tests/EntitiesTester.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.s
 .PHONY : Tests/EntitiesTester.cpp.s
+
+Tests/RepoTester.o: Tests/RepoTester.cpp.o
+
+.PHONY : Tests/RepoTester.o
+
+# target to build an object file
+Tests/RepoTester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o
+.PHONY : Tests/RepoTester.cpp.o
+
+Tests/RepoTester.i: Tests/RepoTester.cpp.i
+
+.PHONY : Tests/RepoTester.i
+
+# target to preprocess a source file
+Tests/RepoTester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.i
+.PHONY : Tests/RepoTester.cpp.i
+
+Tests/RepoTester.s: Tests/RepoTester.cpp.s
+
+.PHONY : Tests/RepoTester.s
+
+# target to generate assembly for a file
+Tests/RepoTester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.s
+.PHONY : Tests/RepoTester.cpp.s
 
 Tests/Tests.o: Tests/Tests.cpp.o
 
@@ -430,9 +484,15 @@ help:
 	@echo "... Entities/Property.o"
 	@echo "... Entities/Property.i"
 	@echo "... Entities/Property.s"
+	@echo "... Repository/Repo.o"
+	@echo "... Repository/Repo.i"
+	@echo "... Repository/Repo.s"
 	@echo "... Tests/EntitiesTester.o"
 	@echo "... Tests/EntitiesTester.i"
 	@echo "... Tests/EntitiesTester.s"
+	@echo "... Tests/RepoTester.o"
+	@echo "... Tests/RepoTester.i"
+	@echo "... Tests/RepoTester.s"
 	@echo "... Tests/Tests.o"
 	@echo "... Tests/Tests.i"
 	@echo "... Tests/Tests.s"

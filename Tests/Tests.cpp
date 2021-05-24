@@ -1,6 +1,7 @@
 #include "Tests.h"
 #include "EntitiesTester.h"
 #include "ValidatorsTest.h"
+#include "RepoTester.h"
 #include <cassert>
 #include <iostream>
 
@@ -10,6 +11,9 @@ void runAllTests(){
 
     ValidatorTest validatorTest;
     validatorTest.runAll();
+
+    RepoTester repoTester;
+    repoTester.runAll();
 
     std::cout << "All test passed. Welcome!\n";
 }
