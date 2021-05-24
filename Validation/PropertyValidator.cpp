@@ -20,6 +20,13 @@ void PropertyValidator::validate(Property* p) throw(ValidationException){
         errorMessage += "Price can't be negative.\n";
     }
 
+    for(auto & it : p->getStreet()){
+        if(isspace(it)){
+            errorMessage += "Street name can't contain spaces.\n";
+            break;
+        }
+    }
+
     if(errorMessage.length() > 0){
         throw ValidationException(errorMessage);
     }

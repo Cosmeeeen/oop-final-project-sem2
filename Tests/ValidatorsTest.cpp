@@ -69,6 +69,21 @@ void ValidatorTest::testPropertyValidator() {
         assert(false);
     }
 
+    Property* p5 = new Property(
+        2,
+        100,
+        3,
+        1000,
+        "testing 123"
+    );
+    try{
+        val.validate(p5);
+    }catch(ValidationException& e){
+        assert(true);
+    }catch(...){
+        assert(false);
+    }
+
     delete p1;
     delete p2;
     delete p3;
