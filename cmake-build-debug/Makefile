@@ -250,6 +250,33 @@ Repository/Repo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.s
 .PHONY : Repository/Repo.cpp.s
 
+Repository/RepoFile.o: Repository/RepoFile.cpp.o
+
+.PHONY : Repository/RepoFile.o
+
+# target to build an object file
+Repository/RepoFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o
+.PHONY : Repository/RepoFile.cpp.o
+
+Repository/RepoFile.i: Repository/RepoFile.cpp.i
+
+.PHONY : Repository/RepoFile.i
+
+# target to preprocess a source file
+Repository/RepoFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.i
+.PHONY : Repository/RepoFile.cpp.i
+
+Repository/RepoFile.s: Repository/RepoFile.cpp.s
+
+.PHONY : Repository/RepoFile.s
+
+# target to generate assembly for a file
+Repository/RepoFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.s
+.PHONY : Repository/RepoFile.cpp.s
+
 Tests/EntitiesTester.o: Tests/EntitiesTester.cpp.o
 
 .PHONY : Tests/EntitiesTester.o
@@ -276,6 +303,33 @@ Tests/EntitiesTester.s: Tests/EntitiesTester.cpp.s
 Tests/EntitiesTester.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.s
 .PHONY : Tests/EntitiesTester.cpp.s
+
+Tests/RepoFileTester.o: Tests/RepoFileTester.cpp.o
+
+.PHONY : Tests/RepoFileTester.o
+
+# target to build an object file
+Tests/RepoFileTester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o
+.PHONY : Tests/RepoFileTester.cpp.o
+
+Tests/RepoFileTester.i: Tests/RepoFileTester.cpp.i
+
+.PHONY : Tests/RepoFileTester.i
+
+# target to preprocess a source file
+Tests/RepoFileTester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.i
+.PHONY : Tests/RepoFileTester.cpp.i
+
+Tests/RepoFileTester.s: Tests/RepoFileTester.cpp.s
+
+.PHONY : Tests/RepoFileTester.s
+
+# target to generate assembly for a file
+Tests/RepoFileTester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.s
+.PHONY : Tests/RepoFileTester.cpp.s
 
 Tests/RepoTester.o: Tests/RepoTester.cpp.o
 
@@ -487,9 +541,15 @@ help:
 	@echo "... Repository/Repo.o"
 	@echo "... Repository/Repo.i"
 	@echo "... Repository/Repo.s"
+	@echo "... Repository/RepoFile.o"
+	@echo "... Repository/RepoFile.i"
+	@echo "... Repository/RepoFile.s"
 	@echo "... Tests/EntitiesTester.o"
 	@echo "... Tests/EntitiesTester.i"
 	@echo "... Tests/EntitiesTester.s"
+	@echo "... Tests/RepoFileTester.o"
+	@echo "... Tests/RepoFileTester.i"
+	@echo "... Tests/RepoFileTester.s"
 	@echo "... Tests/RepoTester.o"
 	@echo "... Tests/RepoTester.i"
 	@echo "... Tests/RepoTester.s"

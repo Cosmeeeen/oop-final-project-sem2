@@ -108,7 +108,6 @@ std::string Property::toString(bool forFile){
     if(forFile){
         // The P in front shows that the object is a property
         result =
-                "P " +
                 std::to_string(this->id) + " " +
                 std::to_string(this->surface) + " " +
                 std::to_string(this->rooms) + " " +

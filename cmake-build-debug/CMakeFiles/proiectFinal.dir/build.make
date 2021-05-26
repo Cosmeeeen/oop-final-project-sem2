@@ -232,6 +232,32 @@ CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoTester.cpp -o CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.s
 
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: CMakeFiles/proiectFinal.dir/flags.make
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Repository/RepoFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o -c /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.cpp
+
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.cpp > CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.i
+
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.cpp -o CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.s
+
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: CMakeFiles/proiectFinal.dir/flags.make
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Tests/RepoFileTester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o -c /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.cpp
+
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.cpp > CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.i
+
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.cpp -o CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.s
+
 # Object files for target proiectFinal
 proiectFinal_OBJECTS = \
 "CMakeFiles/proiectFinal.dir/main.cpp.o" \
@@ -245,7 +271,9 @@ proiectFinal_OBJECTS = \
 "CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o" \
 "CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o" \
 "CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o" \
-"CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o"
+"CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o" \
+"CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o" \
+"CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o"
 
 # External object files for target proiectFinal
 proiectFinal_EXTERNAL_OBJECTS =
@@ -262,9 +290,11 @@ proiectFinal: CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o
 proiectFinal: CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o
 proiectFinal: CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o
 proiectFinal: CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o
+proiectFinal: CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o
+proiectFinal: CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o
 proiectFinal: CMakeFiles/proiectFinal.dir/build.make
 proiectFinal: CMakeFiles/proiectFinal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable proiectFinal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable proiectFinal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proiectFinal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

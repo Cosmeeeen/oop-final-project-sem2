@@ -104,10 +104,22 @@
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h">
 			<Option target="proiectFinal"/>
 		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.cpp">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.h">
+			<Option target="proiectFinal"/>
+		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/EntitiesTester.cpp">
 			<Option target="proiectFinal"/>
 		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/EntitiesTester.h">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.cpp">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.h">
 			<Option target="proiectFinal"/>
 		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoTester.cpp">

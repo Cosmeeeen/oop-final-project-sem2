@@ -23,6 +23,19 @@ CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o: ../Validation/PropertyValidat
 CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o: ../Validation/RepoException.h
 CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o: ../Validation/ValidationException.h
 
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Entities/Apartment.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Entities/House.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Entities/Property.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Repository/Repo.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Repository/RepoFile.cpp
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Repository/RepoFile.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/ApartmentValidator.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/HouseValidator.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/PropertyValidator.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/ReadFromFileException.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/RepoException.h
+CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o: ../Validation/ValidationException.h
+
 CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Entities/Apartment.h
 CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Entities/House.h
 CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Entities/Property.h

@@ -51,6 +51,7 @@ std::string Apartment::toString(bool forFile){
     std::string result;
     if(forFile){
         result =
+                "A " +
                 Property::toString(true) + " " +
                 std::to_string(this->floor);
     } else {
