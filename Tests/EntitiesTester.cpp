@@ -161,7 +161,7 @@ EntitiesTester::EntitiesTester(){
 
 EntitiesTester::~EntitiesTester() = default;
 
-void EntitiesTester::runAllTests(){
+void EntitiesTester::runAll(){
     this->constructorsTests();
     this->settersTest();
     this->operatorsTests();

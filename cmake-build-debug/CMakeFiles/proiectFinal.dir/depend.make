@@ -42,6 +42,20 @@ CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Entities/Property.h
 CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Tests/EntitiesTester.cpp
 CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o: ../Tests/EntitiesTester.h
 
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Entities/Apartment.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Entities/House.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Entities/Property.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Repository/Repo.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Repository/RepoFile.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Tests/RepoFileTester.cpp
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Tests/RepoFileTester.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/ApartmentValidator.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/HouseValidator.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/PropertyValidator.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/ReadFromFileException.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/RepoException.h
+CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o: ../Validation/ValidationException.h
+
 CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o: ../Entities/Apartment.h
 CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o: ../Entities/House.h
 CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o: ../Entities/Property.h
@@ -57,11 +71,19 @@ CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o: ../Validation/ValidationExce
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Entities/Apartment.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Entities/House.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Entities/Property.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Repository/Repo.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Repository/RepoFile.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/EntitiesTester.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/RepoFileTester.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/RepoTester.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/Tests.cpp
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/Tests.h
 CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Tests/ValidatorsTest.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Validation/ApartmentValidator.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Validation/HouseValidator.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Validation/PropertyValidator.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Validation/RepoException.h
+CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o: ../Validation/ValidationException.h
 
 CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o: ../Entities/Apartment.h
 CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o: ../Entities/House.h

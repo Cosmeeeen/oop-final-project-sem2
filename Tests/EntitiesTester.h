@@ -17,5 +17,5 @@ public:
     EntitiesTester();
     ~EntitiesTester();
 
-    void runAllTests();
+    void runAll();
 };

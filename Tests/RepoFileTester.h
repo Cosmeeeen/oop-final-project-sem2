@@ -3,8 +3,8 @@
 
 class RepoFileTester {
 private:
-    const string fileName = "testProducsIn.txt";
-    const string fileNameOut = "testProducsOut.txt";
+    const string fileName = "testProductsIn.txt";
+    const string fileNameOut = "testProductsOut.txt";
     const string fileNameInvalid = "testInvalidProducts.txt";
 
     vector<Property*> properties;
@@ -14,9 +14,9 @@ private:
     void testDeleteProperty();
 
     void testLoadFromFile();
-    void testSaveFromFile();
+    void testSaveToFile();
 public:
     RepoFileTester();
     ~RepoFileTester();
-    void testAll();
+    void runAll();
 };
