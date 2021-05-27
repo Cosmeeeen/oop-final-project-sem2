@@ -121,6 +121,17 @@ CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o: ../Validation/HouseValid
 CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o: ../Validation/PropertyValidator.h
 CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o: ../Validation/ValidationException.h
 
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Entities/Property.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Repository/Repo.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Service/Service.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../UI/UI.cpp
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../UI/UI.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Validation/ApartmentValidator.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Validation/HouseValidator.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Validation/PropertyValidator.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Validation/RepoException.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o: ../Validation/ValidationException.h
+
 CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o: ../Entities/Apartment.h
 CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o: ../Entities/Property.h
 CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o: ../Validation/ApartmentValidator.cpp
@@ -140,6 +151,16 @@ CMakeFiles/proiectFinal.dir/Validation/PropertyValidator.cpp.o: ../Validation/Pr
 CMakeFiles/proiectFinal.dir/Validation/PropertyValidator.cpp.o: ../Validation/PropertyValidator.h
 CMakeFiles/proiectFinal.dir/Validation/PropertyValidator.cpp.o: ../Validation/ValidationException.h
 
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Entities/Property.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Repository/Repo.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Repository/RepoFile.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Service/Service.h
 CMakeFiles/proiectFinal.dir/main.cpp.o: ../Tests/Tests.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../UI/UI.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Validation/ApartmentValidator.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Validation/HouseValidator.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Validation/PropertyValidator.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Validation/RepoException.h
+CMakeFiles/proiectFinal.dir/main.cpp.o: ../Validation/ValidationException.h
 CMakeFiles/proiectFinal.dir/main.cpp.o: ../main.cpp
 

@@ -121,6 +121,17 @@ CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/HouseValidator.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/PropertyValidator.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ValidationException.h
+CMakeFiles/proiectFinal.dir/UI/UI.cpp.o
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.cpp
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ApartmentValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/HouseValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/PropertyValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ValidationException.h
 CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Apartment.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
@@ -141,5 +152,15 @@ CMakeFiles/proiectFinal.dir/Validation/PropertyValidator.cpp.o
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/PropertyValidator.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ValidationException.h
 CMakeFiles/proiectFinal.dir/main.cpp.o
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/Tests.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ApartmentValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/HouseValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/PropertyValidator.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
+ /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ValidationException.h
  /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/main.cpp

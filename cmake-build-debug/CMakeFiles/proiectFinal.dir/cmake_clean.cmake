@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proiectFinal.dir/Tests/ServiceTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o"
+  "CMakeFiles/proiectFinal.dir/UI/UI.cpp.o"
   "CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o"
   "CMakeFiles/proiectFinal.dir/Validation/HouseValidator.cpp.o"
   "CMakeFiles/proiectFinal.dir/Validation/PropertyValidator.cpp.o"

@@ -466,6 +466,33 @@ Tests/ValidatorsTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.s
 .PHONY : Tests/ValidatorsTest.cpp.s
 
+UI/UI.o: UI/UI.cpp.o
+
+.PHONY : UI/UI.o
+
+# target to build an object file
+UI/UI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/UI/UI.cpp.o
+.PHONY : UI/UI.cpp.o
+
+UI/UI.i: UI/UI.cpp.i
+
+.PHONY : UI/UI.i
+
+# target to preprocess a source file
+UI/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/UI/UI.cpp.i
+.PHONY : UI/UI.cpp.i
+
+UI/UI.s: UI/UI.cpp.s
+
+.PHONY : UI/UI.s
+
+# target to generate assembly for a file
+UI/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/UI/UI.cpp.s
+.PHONY : UI/UI.cpp.s
+
 Validation/ApartmentValidator.o: Validation/ApartmentValidator.cpp.o
 
 .PHONY : Validation/ApartmentValidator.o
@@ -619,6 +646,9 @@ help:
 	@echo "... Tests/ValidatorsTest.o"
 	@echo "... Tests/ValidatorsTest.i"
 	@echo "... Tests/ValidatorsTest.s"
+	@echo "... UI/UI.o"
+	@echo "... UI/UI.i"
+	@echo "... UI/UI.s"
 	@echo "... Validation/ApartmentValidator.o"
 	@echo "... Validation/ApartmentValidator.i"
 	@echo "... Validation/ApartmentValidator.s"

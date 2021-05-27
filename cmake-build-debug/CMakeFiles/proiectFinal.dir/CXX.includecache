@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Apartment.h
-Property.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
-string
--
-
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/House.h
-Property.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
-string
--
-
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
 string
 -
@@ -38,25 +26,17 @@ vector
 ../Repository/Repo.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
 
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.cpp
-ServiceTester.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.h
-../Service/Service.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
-../Entities/House.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/House.h
-../Entities/Apartment.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Apartment.h
-../Validation/RepoException.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
-../Repository/Repo.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
-vector
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.cpp
+UI.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.h
+iostream
 -
-cassert
+string
 -
 
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.h
+../Service/Service.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
 
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ApartmentValidator.h
 ValidationException.h

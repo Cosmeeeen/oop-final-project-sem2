@@ -152,6 +152,12 @@
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ValidatorsTest.h">
 			<Option target="proiectFinal"/>
 		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.cpp">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/UI/UI.h">
+			<Option target="proiectFinal"/>
+		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ApartmentValidator.cpp">
 			<Option target="proiectFinal"/>
 		</Unit>
