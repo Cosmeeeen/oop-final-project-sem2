@@ -3,6 +3,7 @@
 #include "ValidatorsTest.h"
 #include "RepoTester.h"
 #include "RepoFileTester.h"
+#include "ServiceTester.h"
 #include <cassert>
 #include <iostream>
 
@@ -18,6 +19,9 @@ void runAllTests(){
 
     RepoFileTester repoFileTester;
     repoFileTester.runAll();
+
+    ServiceTester serviceTester;
+    serviceTester.runAll();
 
     std::cout << "All test passed. Welcome!\n";
 }

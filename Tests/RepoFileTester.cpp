@@ -7,8 +7,6 @@
 #include "../Validation/RepoException.h"
 #include "../Validation/ReadFromFileException.h"
 
-#include <iostream> // todo best debugging tool remove later
-
 void RepoFileTester::testAddProperty() {
     RepoFile repoFile = RepoFile(this->fileName);
     repoFile.setFileName(this->fileNameOut);

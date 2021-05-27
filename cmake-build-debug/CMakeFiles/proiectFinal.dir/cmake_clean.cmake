@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o"
+  "CMakeFiles/proiectFinal.dir/Tests/ServiceTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/Tests.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/ValidatorsTest.cpp.o"
   "CMakeFiles/proiectFinal.dir/Validation/ApartmentValidator.cpp.o"

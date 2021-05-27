@@ -34,33 +34,29 @@ vector
 ../Validation/RepoException.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
 
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.h
-Repo.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
-
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.cpp
-RepoFileTester.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.h
-cassert
--
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
 ../Repository/Repo.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
-../Entities/Property.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
+
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.cpp
+ServiceTester.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.h
+../Service/Service.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h
 ../Entities/House.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/House.h
 ../Entities/Apartment.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Apartment.h
 ../Validation/RepoException.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
-../Validation/ReadFromFileException.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ReadFromFileException.h
-iostream
+../Repository/Repo.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/Repo.h
+vector
+-
+cassert
 -
 
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoFileTester.h
-../Repository/RepoFile.h
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.h
+/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.h
 
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ApartmentValidator.h
 ValidationException.h
@@ -79,12 +75,6 @@ PropertyValidator.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Entities/Property.h
 ValidationException.h
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ValidationException.h
-
-/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/ReadFromFileException.h
-exception
--
-string
--
 
 /Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Validation/RepoException.h
 exception

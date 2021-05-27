@@ -385,6 +385,33 @@ Tests/RepoTester.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.s
 .PHONY : Tests/RepoTester.cpp.s
 
+Tests/ServiceTester.o: Tests/ServiceTester.cpp.o
+
+.PHONY : Tests/ServiceTester.o
+
+# target to build an object file
+Tests/ServiceTester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/ServiceTester.cpp.o
+.PHONY : Tests/ServiceTester.cpp.o
+
+Tests/ServiceTester.i: Tests/ServiceTester.cpp.i
+
+.PHONY : Tests/ServiceTester.i
+
+# target to preprocess a source file
+Tests/ServiceTester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/ServiceTester.cpp.i
+.PHONY : Tests/ServiceTester.cpp.i
+
+Tests/ServiceTester.s: Tests/ServiceTester.cpp.s
+
+.PHONY : Tests/ServiceTester.s
+
+# target to generate assembly for a file
+Tests/ServiceTester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Tests/ServiceTester.cpp.s
+.PHONY : Tests/ServiceTester.cpp.s
+
 Tests/Tests.o: Tests/Tests.cpp.o
 
 .PHONY : Tests/Tests.o
@@ -583,6 +610,9 @@ help:
 	@echo "... Tests/RepoTester.o"
 	@echo "... Tests/RepoTester.i"
 	@echo "... Tests/RepoTester.s"
+	@echo "... Tests/ServiceTester.o"
+	@echo "... Tests/ServiceTester.i"
+	@echo "... Tests/ServiceTester.s"
 	@echo "... Tests/Tests.o"
 	@echo "... Tests/Tests.i"
 	@echo "... Tests/Tests.s"

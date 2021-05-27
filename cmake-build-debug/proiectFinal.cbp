@@ -134,6 +134,12 @@
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/RepoTester.h">
 			<Option target="proiectFinal"/>
 		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.cpp">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/ServiceTester.h">
+			<Option target="proiectFinal"/>
+		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/Tests.cpp">
 			<Option target="proiectFinal"/>
 		</Unit>
