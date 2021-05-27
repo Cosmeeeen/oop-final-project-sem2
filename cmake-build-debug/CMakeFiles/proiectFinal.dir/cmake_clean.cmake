@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proiectFinal.dir/Entities/Property.cpp.o"
   "CMakeFiles/proiectFinal.dir/Repository/Repo.cpp.o"
   "CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.o"
+  "CMakeFiles/proiectFinal.dir/Service/Service.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/EntitiesTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/RepoFileTester.cpp.o"
   "CMakeFiles/proiectFinal.dir/Tests/RepoTester.cpp.o"

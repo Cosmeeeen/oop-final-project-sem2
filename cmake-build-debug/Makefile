@@ -277,6 +277,33 @@ Repository/RepoFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Repository/RepoFile.cpp.s
 .PHONY : Repository/RepoFile.cpp.s
 
+Service/Service.o: Service/Service.cpp.o
+
+.PHONY : Service/Service.o
+
+# target to build an object file
+Service/Service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Service/Service.cpp.o
+.PHONY : Service/Service.cpp.o
+
+Service/Service.i: Service/Service.cpp.i
+
+.PHONY : Service/Service.i
+
+# target to preprocess a source file
+Service/Service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Service/Service.cpp.i
+.PHONY : Service/Service.cpp.i
+
+Service/Service.s: Service/Service.cpp.s
+
+.PHONY : Service/Service.s
+
+# target to generate assembly for a file
+Service/Service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proiectFinal.dir/build.make CMakeFiles/proiectFinal.dir/Service/Service.cpp.s
+.PHONY : Service/Service.cpp.s
+
 Tests/EntitiesTester.o: Tests/EntitiesTester.cpp.o
 
 .PHONY : Tests/EntitiesTester.o
@@ -544,6 +571,9 @@ help:
 	@echo "... Repository/RepoFile.o"
 	@echo "... Repository/RepoFile.i"
 	@echo "... Repository/RepoFile.s"
+	@echo "... Service/Service.o"
+	@echo "... Service/Service.i"
+	@echo "... Service/Service.s"
 	@echo "... Tests/EntitiesTester.o"
 	@echo "... Tests/EntitiesTester.i"
 	@echo "... Tests/EntitiesTester.s"

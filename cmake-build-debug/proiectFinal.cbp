@@ -110,6 +110,12 @@
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Repository/RepoFile.h">
 			<Option target="proiectFinal"/>
 		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.cpp">
+			<Option target="proiectFinal"/>
+		</Unit>
+		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Service/Service.h">
+			<Option target="proiectFinal"/>
+		</Unit>
 		<Unit filename="/Users/cosmeen/Documents/_facultate/semestrul2/OOP/proiectFinal/Tests/EntitiesTester.cpp">
 			<Option target="proiectFinal"/>
 		</Unit>
