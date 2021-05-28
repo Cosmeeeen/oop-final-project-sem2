@@ -165,7 +165,7 @@ void RepoTester::testDeleteProperty() {
 
 RepoTester::RepoTester(){
     House* h = new House(
-            1,
+            10,
             100,
             5,
             1000,
@@ -173,7 +173,7 @@ RepoTester::RepoTester(){
             1
             );
     Apartment* a = new Apartment(
-            2,
+            20,
             50,
             3,
             500,

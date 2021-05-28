@@ -6,6 +6,8 @@
 #include "../Validation/ValidationException.h"
 #include "../Validation/ReadFromFileException.h"
 
+#include <iostream>
+
 RepoFile::RepoFile(string filename){
     this->fileName = filename;
     this->loadFromFile();
@@ -127,6 +129,7 @@ void RepoFile::saveToFile() {
     ofstream f(this->fileName);
     if(f.is_open()){
         for(auto & property : this->properties){
+            std::cout << property->toString(true) << '\n';
             f << property->toString(true) << '\n';
         }
     }

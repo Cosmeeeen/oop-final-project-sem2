@@ -55,6 +55,11 @@ void Repo::addProperty(Property *p) throw(RepoException, ValidationException){
         throw RepoException("Property can't be added because it already exists.\n");
     }
 
+    for(auto & property : this->properties){
+        if(property->getId() == p->getId())
+            throw RepoException("The property id must be unique.\n");
+    }
+
     this->properties.push_back(p->clone());
 }
 
@@ -67,10 +72,15 @@ void Repo::updateProperty(Property *oldProperty, Property *newProperty) throw(Re
         this->apartmentValidator.validate(newProperty);
     }
 
-    for(auto & propertie : this->properties){
-        if(propertie->getId() == oldProperty->getId()){
-            delete propertie;
-            propertie = newProperty->clone();
+    for(auto & property : this->properties){
+        if(property->getId() == newProperty->getId() and property != oldProperty)
+            throw RepoException("The property id must be unique.\n");
+    }
+
+    for(auto & property : this->properties){
+        if(property->getId() == oldProperty->getId()){
+            delete property;
+            property = newProperty->clone();
             return;
         }
     }
