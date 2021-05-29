@@ -15,6 +15,10 @@ private:
 
     void handleDeleteProperty();
     void handleShowAll();
+
+    void handleGetMostValuable();
+    void handleGetSorted();
+    void handleGetByRooms();
 public:
     UI(Service service);
     ~UI();

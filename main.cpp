@@ -9,7 +9,7 @@ int main(){
     runAllTests();
 
 
-    RepoFile* repo = new RepoFile("productionRepo.txt");
+    RepoFile* repo = new RepoFile("properties.txt");
     Service service(repo);
     UI ui(service);
 

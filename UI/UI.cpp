@@ -4,16 +4,20 @@
 using namespace std;
 
 void UI::printMenu() {
-    cout << "===========M=E=N=U===========\n";
-    cout << "| ah | Add a House          |\n";
-    cout << "| aa | Add an Apartment     |\n";
-    cout << "| eh | Edit a House         |\n";
-    cout << "| ea | Edit an Apartment    |\n";
-    cout << "| dp | Delete a property    |\n";
-    cout << "| sa | Show all properties  |\n";
-    cout << "=============================\n";
-    cout << "| q  | Exit the program     |\n";
-    cout << "=============================\n";
+    cout << "==============M=E=N=U==============\n";
+    cout << "| ah | Add a House                |\n";
+    cout << "| aa | Add an Apartment           |\n";
+    cout << "| eh | Edit a House               |\n";
+    cout << "| ea | Edit an Apartment          |\n";
+    cout << "| dp | Delete a property          |\n";
+    cout << "===================================\n";
+    cout << "| gv | Get most valued property   |\n";
+    cout << "| gs | Get sorted properties      |\n";
+    cout << "| gr | Get by number of rooms     |\n";
+    cout << "===================================\n";
+    cout << "| sa | Show all properties        |\n";
+    cout << "| q  | Exit the program           |\n";
+    cout << "===================================\n";
 }
 
 void UI::handleAddHouse(){
@@ -37,6 +41,7 @@ void UI::handleAddHouse(){
 
     cout << "Number of floors: ";
     cin >> floors;
+    cin.get();
 
     try{
         this->service.addHouse(
@@ -75,6 +80,7 @@ void UI::handleAddApartment(){
 
     cout << "Floor number: ";
     cin >> floor;
+    cin.get();
 
     try{
         this->service.addApartment(
@@ -116,6 +122,7 @@ void UI::handleEditHouse(){
 
     cout << "New number of floors: ";
     cin >> floors;
+    cin.get();
 
     try{
         this->service.updateHouse(
@@ -158,6 +165,7 @@ void UI::handleEditApartment(){
 
     cout << "New number of floors: ";
     cin >> floor;
+    cin.get();
 
     try{
         this->service.updateApartment(
@@ -181,6 +189,7 @@ void UI::handleDeleteProperty(){
 
     cout << "Id of property to delete: ";
     cin >> toDelete;
+    cin.get();
 
     try{
         this->service.deleteProperty(toDelete);
@@ -188,6 +197,34 @@ void UI::handleDeleteProperty(){
         cout << e.toString() << '\n';
     }catch(RepoException & e){
         cout << e.what() << '\n';
+    }
+}
+
+void UI::handleGetMostValuable() {
+    cout << "The most expensive property is: \n";
+    cout << this->service.getMostExpensive()->toString() << "\n\n";
+}
+
+void UI::handleGetSorted(){
+    vector<Property*> results = this->service.getSorted();
+
+    for(auto * it : results){
+        cout << it->toString() << '\n';
+    }
+}
+
+void UI::handleGetByRooms(){
+    int rooms;
+    cout << "Number of rooms you're looking for: ";
+    cin >> rooms;
+    cin.get();
+
+    vector<Property*> results = this->service.getByRooms(rooms);
+
+    cout << "The matching properties are: \n";
+
+    for(auto & result : results){
+        cout << result->toString() << '\n';
     }
 }
 
@@ -216,7 +253,6 @@ void UI::runUI(){
         if(choice == "ah") {
             // add house
             this->handleAddHouse();
-            cout << "Here\n";
         }else if(choice == "aa") {
             // add apartment
             this->handleAddApartment();
@@ -229,6 +265,15 @@ void UI::runUI(){
         }else if(choice == "dp") {
             // delete property
             this->handleDeleteProperty();
+        }else if(choice == "gv") {
+            // get most valuable
+            this->handleGetMostValuable();
+        }else if(choice == "gs") {
+            // get sorted
+            this->handleGetSorted();
+        }else if(choice == "gr"){
+            // get by number of rooms
+            this->handleGetByRooms();
         }else if(choice == "sa") {
             // show all
             // todo repo edits not showing up
