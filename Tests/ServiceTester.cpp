@@ -6,6 +6,7 @@
 #include "../Repository/Repo.h"
 #include <vector>
 #include <cassert>
+#include <iostream>
 
 void ServiceTester::testGetAll(){
     Repo* repo = new Repo();
@@ -193,7 +194,134 @@ void ServiceTester::testDeleteProperty() {
     assert(properties.empty());
 }
 
-ServiceTester::ServiceTester() {}
+void ServiceTester::testGetMostExpensive(){
+    Repo* repo = new Repo();
+    Service serv(repo);
+
+    Apartment* a1 = new Apartment(
+            100,
+            100,
+            100,
+            100,
+            "a",
+            100
+    );
+    serv.addApartment(a1->getId(), a1->getSurface(), a1->getRooms(), a1->getPrice(), a1->getStreet(), a1->getFloor());
+
+    Apartment* a2 = new Apartment(
+            300,
+            100,
+            300,
+            300,
+            "c",
+            300
+    );
+    serv.addApartment(a2->getId(), a2->getSurface(), a2->getRooms(), a2->getPrice(), a2->getStreet(), a2->getFloor());
+
+    Apartment* a3 = new Apartment(
+            200,
+            100,
+            200,
+            200,
+            "b",
+            200
+    );
+    serv.addApartment(a3->getId(), a3->getSurface(), a3->getRooms(), a3->getPrice(), a3->getStreet(), a3->getFloor());
+
+    assert(*serv.getMostExpensive() == *a2);
+}
+
+void ServiceTester::testGetSorted(){
+    Repo* repo = new Repo();
+    Service serv(repo);
+
+    Apartment* a1 = new Apartment(
+            100,
+            100,
+            100,
+            100,
+            "a",
+            100
+    );
+    serv.addApartment(a1->getId(), a1->getSurface(), a1->getRooms(), a1->getPrice(), a1->getStreet(), a1->getFloor());
+
+    Apartment* a2 = new Apartment(
+            300,
+            100,
+            300,
+            300,
+            "c",
+            300
+    );
+    serv.addApartment(a2->getId(), a2->getSurface(), a2->getRooms(), a2->getPrice(), a2->getStreet(), a2->getFloor());
+
+    Apartment* a3 = new Apartment(
+            200,
+            100,
+            200,
+            200,
+            "b",
+            200
+    );
+    serv.addApartment(a3->getId(), a3->getSurface(), a3->getRooms(), a3->getPrice(), a3->getStreet(), a3->getFloor());
+
+    vector<Property*> correct;
+    correct.push_back(a1);
+    correct.push_back(a3);
+    correct.push_back(a2);
+
+    vector<Property*> result = serv.getSorted();
+
+    for(int i=0; i<correct.size(); i++){
+        assert(*result[i] == *correct[i]);
+    }
+}
+
+void ServiceTester::testGetByRooms(){
+    Repo* repo = new Repo();
+    Service serv(repo);
+
+    Apartment* a1 = new Apartment(
+            100,
+            100,
+            100,
+            100,
+            "a",
+            100
+    );
+    serv.addApartment(a1->getId(), a1->getSurface(), a1->getRooms(), a1->getPrice(), a1->getStreet(), a1->getFloor());
+
+    Apartment* a2 = new Apartment(
+            300,
+            100,
+            100,
+            300,
+            "c",
+            300
+    );
+    serv.addApartment(a2->getId(), a2->getSurface(), a2->getRooms(), a2->getPrice(), a2->getStreet(), a2->getFloor());
+
+    Apartment* a3 = new Apartment(
+            200,
+            100,
+            200,
+            200,
+            "b",
+            200
+    );
+    serv.addApartment(a3->getId(), a3->getSurface(), a3->getRooms(), a3->getPrice(), a3->getStreet(), a3->getFloor());
+
+    vector<Property*> correct;
+    correct.push_back(a1);
+    correct.push_back(a2);
+
+    vector<Property*> result = serv.getByRooms(100);
+    for(int i=0; i<result.size(); i++){
+        assert(*result[i] == *correct[i]);
+    }
+}
+
+ServiceTester::ServiceTester() {};
 
 ServiceTester::~ServiceTester() {}
 
@@ -204,4 +332,7 @@ void ServiceTester::runAll(){
     this->testUpdateHouse();
     this->testUpdateApartment();
     this->testDeleteProperty();
+    this->testGetMostExpensive();
+    this->testGetSorted();
+    this->testGetByRooms();
 }

@@ -7,6 +7,9 @@ private:
     void testUpdateHouse();
     void testUpdateApartment();
     void testDeleteProperty();
+    void testGetMostExpensive();
+    void testGetSorted();
+    void testGetByRooms();
 public:
     ServiceTester();
     ~ServiceTester();

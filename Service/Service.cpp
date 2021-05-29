@@ -78,6 +78,54 @@ void Service::deleteProperty(int id) {
     }
 }
 
+Property* Service::getMostExpensive(){
+    if(this->repo->getSize() == 0){
+        return nullptr;
+    }
+    Property* result = repo->get(0)->clone();
+    float maxValue = result->getPrice() / result->getSurface();
+
+    float value;
+    for(auto & it : this->repo->getAll()){
+        value = it->getPrice() / it->getSurface();
+        if(value > maxValue){
+            maxValue = value;
+            result = it->clone();
+        }
+    }
+    return result;
+}
+
+vector<Property*> Service::getSorted(){
+    vector<Property*> results = this->getAll();
+
+    if(results.empty()){
+        return results;
+    }
+
+    struct by_price{
+        bool operator()(Property* a, Property* b){
+            return a->getPrice() < b->getPrice();
+        }
+    };
+
+    std::sort(results.begin(), results.end(), by_price());
+
+    return results;
+}
+
+vector<Property*> Service::getByRooms(int rooms){
+    vector<Property*> results;
+
+    for(auto & it : this->getAll()){
+        if(it->getRooms() == rooms){
+            results.push_back(it->clone());
+        }
+    }
+
+    return results;
+}
+
 vector<Property*> Service::getAll(){
     return this->repo->getAll();
 }

@@ -48,5 +48,11 @@ public:
 
     void deleteProperty(int id);
 
+    Property* getMostExpensive();
+
+    vector<Property*> getSorted();
+
+    vector<Property*> getByRooms(int rooms);
+
     vector<Property*> getAll();
 };
