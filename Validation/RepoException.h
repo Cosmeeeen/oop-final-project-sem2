@@ -6,17 +6,13 @@ using namespace std;
 
 class RepoException : public runtime_error{
 private:
-    // Used to be char*
-    // If any errors, change back here
-    string message;
+    char* message;
 public:
-    // also here
-    RepoException(string msg) : runtime_error(msg), message(msg){
+    RepoException(char* msg) : runtime_error(msg), message(msg){
 
     }
 
-    // and here
-    const string what(){
-        return message;
+    const char* what(){
+        return this->message;
     }
 };
