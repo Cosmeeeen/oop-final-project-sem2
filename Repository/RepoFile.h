@@ -13,7 +13,7 @@ public:
     void addProperty(Property* p) throw(RepoException, ValidationException);
     void updateProperty(Property* oldP, Property* newP) throw(RepoException, ValidationException);
 
-    void deleteProperty(Property* p) throw(RepoException, ValidationException);
+    void deleteProperty(Property* p) throw(RepoException);
 
     void loadFromFile();
     void saveToFile();

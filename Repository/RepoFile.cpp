@@ -29,7 +29,7 @@ void RepoFile::updateProperty(Property* oldP, Property* newP) throw(RepoExceptio
     this->saveToFile();
 }
 
-void RepoFile::deleteProperty(Property* p) throw(RepoException, ValidationException){
+void RepoFile::deleteProperty(Property* p) throw(RepoException){
     Repo::deleteProperty(p);
     this->saveToFile();
 }

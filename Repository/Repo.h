@@ -19,9 +19,9 @@ public:
     Property* get(int index) throw(RepoException);
     int find(Property* p);
 
-    void addProperty(Property* p) throw(RepoException, ValidationException);
-    void updateProperty(Property* oldProperty, Property* newProperty) throw(RepoException, ValidationException);
-    void deleteProperty(Property* p) throw(RepoException);
+    virtual void addProperty(Property* p) throw(RepoException, ValidationException);
+    virtual void updateProperty(Property* oldProperty, Property* newProperty) throw(RepoException, ValidationException);
+    virtual void deleteProperty(Property* p) throw(RepoException);
 
     void empty();
 };
